@@ -470,7 +470,7 @@ In this representation, the file contains an **index variable** , which must be 
 
 === The featureType  attribute
 
-A global attribute, **featureType** , is required for all Discrete Geometry representations except the orthogonal multidimensional array representation, for which it is highly recommended.  The exception is allowed for backwards compatibility, as discussed in 9.3.1.  A Discrete Geometry file may include arbitrary numbers of data variables, but (as of CF v1.6) all of the data variables contained in a single file must be of the single feature type indicated by the global **`featureType`** attribute, if it is present.1   The value assigned to the **`featureType`** attribute is case-insensitive;  it must be one of the string values listed in the left column of Table 9.1.
+A global attribute, **featureType** , is required for all Discrete Geometry representations except the orthogonal multidimensional array representation, for which it is highly recommended.  The exception is allowed for backwards compatibility, as discussed in 9.3.1.  A Discrete Geometry file may include arbitrary numbers of data variables, but (as of CF v1.6) all of the data variables contained in a single file must be of the single feature type indicated by the global **`featureType`** attribute, if it is present. The value assigned to the **`featureType`** attribute is case-insensitive;  it must be one of the string values listed in the left column of Table 9.1.
 
 
 
